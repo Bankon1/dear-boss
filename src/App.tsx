@@ -15,10 +15,10 @@ function App() {
   const noun = pickRandomValue(nouns);
   return (
     <div className="App">
-      <h1>{adverb}</h1>
-      <h1>{verb}</h1>
-      <h1>{adjective}</h1>
-      <h1>{noun}</h1>
+      <p>{adverb}</p>
+      <p>{verb}</p>
+      <p>{adjective}</p>
+      <p>{noun}</p>
     </div>
   );
 }
